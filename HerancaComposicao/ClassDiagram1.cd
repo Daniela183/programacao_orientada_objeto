@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HerancaComposicao.Animal">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerancaComposicao.Homem">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="HerancaComposicao.Animal" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="2.247" />
+        <Point X="5" Y="2.315" />
+        <Point X="2.912" Y="2.315" />
+        <Point X="2.912" Y="2.5" />
+        <Point X="2.75" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="_comportamentoAndar" Type="HerancaComposicao.ComportamentoAndar" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.375" Y="2.5" />
+        <Point X="2.375" Y="2.052" />
+        <Point X="2.375" Y="2.052" />
+        <Point X="2.375" Y="1.603" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.393" Y="0.36" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Homem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_comportamentoAndar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HerancaComposicao.Macaco">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <AssociationLine Name="_comportamentoAndar" Type="HerancaComposicao.ComportamentoAndar" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.213" />
+        <Point X="3.75" Y="3.213" />
+        <Point X="3.75" Y="4.287" />
+        <Point X="1.662" Y="4.287" />
+        <Point X="1.662" Y="2.398" />
+        <Point X="2.125" Y="2.398" />
+        <Point X="2.125" Y="1.603" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-2.007" Y="0.352" Height="0.182" Width="1.655" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Macaco.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_comportamentoAndar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HerancaComposicao.Sardinha">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="_comportamentoNadar" Type="HerancaComposicao.ComportamentoNadar">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.007" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAA=</HashCode>
+      <FileName>Sardinha.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_comportamentoNadar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HerancaComposicao.ComportamentoAndar">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComportamentoAndar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerancaComposicao.ComportamentoNadar">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComportamentoNadar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
